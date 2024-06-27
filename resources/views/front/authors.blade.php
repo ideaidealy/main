@@ -17,6 +17,9 @@
 
 			<!-- <ul class="list-unstyled"> -->
 				@foreach($users as  $user)
+					@if ($user->orcid == '----')
+						@continue
+					@endif
 				<!-- <li> -->
 					<div class="col-lg-3 col-md-4 col-sm-4 col-12">
 						<div class="px-2">
