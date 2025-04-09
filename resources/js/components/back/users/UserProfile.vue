@@ -638,40 +638,40 @@ export default {
 
 			if (f_name) {
 				this.user.first_name_ru = f_name;
-				this.user.first_name_en = translat.translat(f_name);
-				this.user.short_name_en = translat.translat(f_name);
+				// this.user.first_name_en = translat.translat(f_name);
+				// this.user.short_name_en = translat.translat(f_name);
 			} else {
 				this.user.first_name_ru = "";
-				this.user.first_name_en = "";
-				this.user.short_name_en = "";
+				// this.user.first_name_en = "";
+				// this.user.short_name_en = "";
 			}
 
 			if (l_name) {
 				this.user.last_name_ru = l_name;
-				this.user.last_name_en = translat.translat(l_name);
-				this.user.short_name_en = translat.translat(l_name) + " " + this.user.short_name_en;
+				// this.user.last_name_en = translat.translat(l_name);
+				// this.user.short_name_en = translat.translat(l_name) + " " + this.user.short_name_en;
 			} else {
 				this.user.last_name_ru = "";
-				this.user.last_name_en = "";
+				// this.user.last_name_en = "";
 			}
 
 			if (pat) {
 				this.user.patronymic_ru = pat;
 				// this.user.patronymic_en = translat.translat(pat);
-				this.user.patronymic_en = "";
+				// this.user.patronymic_en = "";
 			} else {
 				this.user.patronymic_ru = "";
-				this.user.patronymic_en = "";
+				// this.user.patronymic_en = "";
 			}
 			if (ini) {
 				this.user.initials_ru = ini;
 				// this.user.initials_en = translat.translat(ini);
-				this.user.initials_en = ini_en;
+				// this.user.initials_en = ini_en;
 				this.user.short_name_ru = l_name + " " + ini;
 				// this.user.short_name_en = translat.translat(l_name) + " " + ini_en;
 			} else {
 				this.user.initials_ru = "";
-				this.user.initials_en = "";
+				// this.user.initials_en = "";
 				this.user.short_name_ru = l_name;
 				// this.user.short_name_en = translat.translat(l_name);
 			}
