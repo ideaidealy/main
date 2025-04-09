@@ -23,4 +23,5 @@ mix.js("resources/js/back.js", "public/js/")
       "vue"
    ])
    .sass("resources/sass/back/back.scss", "public/css/back.css")
-   .sass("resources/sass/front/style.scss", "public/css/front.css");
+   .sass("resources/sass/front/style.scss", "public/css/front.css")
+   .version();
